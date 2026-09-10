@@ -171,7 +171,7 @@ const FounderSection = () => {
           <div class="relative lg:col-span-5">
             <div class="aspect-4/5 overflow-hidden  shadow-md">
               <img
-                src="public/images/him.webp"
+                src="/images/him.webp"
                 alt="Aboagye, Founder & Creative Director of Aboagye Nobel Furniture"
                 class="h-full w-full object-cover object-center"
               />
