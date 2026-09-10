@@ -21,7 +21,7 @@ const HeroSectionCopy = () => {
     <section class="relative -mt-20 w-full">
       <div class="relative h-[92vh] min-h-155 w-full overflow-hidden">
         <img
-          src="/public/images/landscape.webp"
+          src="/images/landscape.webp"
           alt="A Residence living room interior designed by Aboagye Nobel Furnitures"
           class="h-full w-full scale-[1.01] object-cover object-center transition-transform duration-1000 ease-out"
         />
@@ -137,7 +137,7 @@ const FeaturedProjectsSection = () => {
           <article class="group md:col-span-12">
             <div class="overflow-hidden bg-stone-100 shadow-sm">
               <img
-                src="/public/images/one.webp"
+                src="/images/one.webp"
                 alt="A North Kaneshie  Residence - Full Architectural Renovation by Aboagye Nobel Furniture"
                 class="h-130 w-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.015] md:h-170"
               />
@@ -164,7 +164,7 @@ const FeaturedProjectsSection = () => {
           <article class="group md:col-span-7">
             <div class="overflow-hidden bg-stone-100 shadow-sm">
               <img
-                src="/public/images/two.webp"
+                src="/images/two.webp"
                 alt="Kitchen & Villa - Residential Interior by Aboagye Nobel Furniture"
                 class="h-105 w-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.02] md:h-125"
               />
@@ -192,7 +192,7 @@ const FeaturedProjectsSection = () => {
             <div>
               <div class="overflow-hidden bg-stone-100 shadow-sm">
                 <img
-                  src="/public/images/three.webp"
+                  src="/images/three.webp"
                   alt="Apartment - Space Planning & Interior by Aboagye Nobel Furniture"
                   class="h-105 w-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.02] md:h-125"
                 />

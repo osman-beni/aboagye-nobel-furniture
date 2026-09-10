@@ -45,7 +45,7 @@ const EditorialMateriality = () => {
             <img
               alt="Warm architectural kitchen with dark timber joinery, honed marble waterfall island and natural light"
               class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-              src="/public/images/landscape.webp"
+              src="/images/landscape.webp"
             />
 
             <div class="absolute bottom-4 left-4 bg-white/90 px-3 py-1.5 text-neutral-900 backdrop-blur-sm">
@@ -62,7 +62,7 @@ const EditorialMateriality = () => {
             <img
               alt="Minimalist living room with plaster finish walls, bespoke linen upholstery, travertine table and garden view"
               class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-              src="/public/images/seven.webp"
+              src="/images/seven.webp"
             />
 
             <div class="absolute bottom-4 left-4 bg-white/90 px-3 py-1.5 text-neutral-900 backdrop-blur-sm">

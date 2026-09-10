@@ -57,7 +57,7 @@ const GalleryArchitecturalGrid = () => {
             <img
               alt="Apartment Interior"
               class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]"
-              src="/public/images/three.webp"
+              src="/images/three.webp"
             />
 
             <div class="absolute left-3 top-3 bg-white/90 px-3 py-1.5 backdrop-blur-sm">
@@ -94,7 +94,7 @@ const GalleryArchitecturalGrid = () => {
             <img
               alt="Room Interior"
               class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]"
-              src="/public/images/six.webp"
+              src="/images/six.webp"
             />
 
             <div class="absolute left-3 top-3 bg-white/90 px-3 py-1.5 backdrop-blur-sm">
@@ -129,7 +129,7 @@ const GalleryArchitecturalGrid = () => {
             <img
               alt="Minimalist Kitchen Interior"
               class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]"
-              src="/public/images/five.webp"
+              src="/images/five.webp"
             />
 
             <div class="absolute left-3 top-3 bg-white/90 px-3 py-1.5 backdrop-blur-sm">
@@ -164,7 +164,7 @@ const GalleryArchitecturalGrid = () => {
             <img
               alt="Kitchen Space"
               class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]"
-              src="/public/images/two.webp"
+              src="/images/two.webp"
             />
 
             <div class="absolute left-3 top-3 bg-white/90 px-3 py-1.5 backdrop-blur-sm">

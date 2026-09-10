@@ -49,7 +49,7 @@ const LargeImmersiveEditorial = () => {
         <img
           class="h-full w-full object-cover transition-transform duration-700 ease-out hover:scale-[1.01]"
           data-alt="Editorial photograph of a warm minimalist living room interior with limewashed neutral plaster walls, tall steel-framed French glass windows overlooking an autumnal garden, low-slung tailored linen modular sofa in oatmeal tones, travertine curved low coffee table, woven natural wool rug, and warm directional soft morning sunlight. Architectural digest style, quiet luxury, neutral beige and taupe palette."
-          src="/public/images/landscape.webp"
+          src="/images/landscape.webp"
           alt="Warm minimalist living room interior"
         />
       </div>
