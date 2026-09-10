@@ -117,7 +117,7 @@ export const Footer: FC = () => {
             reserved.
           </span>
         </div>
-        <img src="/public/images/logo-avif.avif" class="w-full" alt="" />
+        <img src="/images/logo-avif.avif" class="w-full" alt="" />
       </div>
     </footer>
   );

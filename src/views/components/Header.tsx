@@ -13,7 +13,7 @@ export const Header: FC = () => {
               class="font-serif text-lg uppercase tracking-[0.18em] text-neutral-900 transition-colors hover:text-neutral-500"
             >
               {/* AN Furniture */}
-              <img src="/public/images/logo-avif.avif" alt="" class="w-24" />
+              <img src="/images/logo-avif.avif" alt="" class="w-24" />
             </a>
           </div>
 
