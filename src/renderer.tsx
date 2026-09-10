@@ -14,7 +14,25 @@ export const renderer = jsxRenderer(({ children }) => {
           name="description"
           content="Beautiful, timeless furniture for your home."
         />
-        <title>Your Furniture Store</title>
+        <Link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/public/favicon/apple-touch-icon.png"
+        />
+        <Link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/public/favicon/favicon-32x32.png"
+        />
+        <Link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/public/favicon/favicon-16x16.png"
+        />
+        <Link rel="manifest" href="/public/favicon/site.webmanifest" />
+        <title>Aboagye Nobel Furniture</title>
         <ViteClient />
         <Link href="/src/open-props.min.css" rel="stylesheet" />
         <Link href="/src/style.css" rel="stylesheet" />

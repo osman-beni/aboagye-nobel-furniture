@@ -21,7 +21,7 @@ const TopEditorialHeader = () => {
       <div class="grid grid-cols-1 items-end gap-8 lg:grid-cols-12 lg:gap-12">
         <div class="lg:col-span-8">
           <span class="mb-4 block text-xs font-medium uppercase tracking-[0.2em] text-slate-600">
-            About Aboagy Noble Furniture
+            About Aboagye Noble Furniture
           </span>
 
           <h1 class="text-4xl font-medium leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
@@ -45,19 +45,13 @@ const TopEditorialHeader = () => {
 const LargeImmersiveEditorial = () => {
   return (
     <section class="mx-auto mb-24 w-full max-w-360 px-6 sm:px-8 lg:px-12">
-      <div class="relative aspect-video w-full overflow-hidden bg-slate-100 shadow-sm md:aspect-[21/9]">
+      <div class="relative aspect-video w-full overflow-hidden bg-slate-100 shadow-sm md:aspect-21/9">
         <img
           class="h-full w-full object-cover transition-transform duration-700 ease-out hover:scale-[1.01]"
           data-alt="Editorial photograph of a warm minimalist living room interior with limewashed neutral plaster walls, tall steel-framed French glass windows overlooking an autumnal garden, low-slung tailored linen modular sofa in oatmeal tones, travertine curved low coffee table, woven natural wool rug, and warm directional soft morning sunlight. Architectural digest style, quiet luxury, neutral beige and taupe palette."
           src="/public/images/landscape.webp"
           alt="Warm minimalist living room interior"
         />
-
-        <div class="absolute bottom-6 left-6 bg-white/90 px-6 py-2 backdrop-blur-sm">
-          <p class="text-xs font-medium uppercase tracking-widest text-slate-900">
-            The Hampstead Residence · Project 04
-          </p>
-        </div>
       </div>
     </section>
   );
@@ -157,7 +151,7 @@ const ArchitecturalMetric = () => {
           </div>
 
           <div class="space-y-2">
-            <span class="text-4xl font-normal font-heading block">02</span>
+            <span class="text-4xl font-normal font-heading block">01</span>
             <span class="block text-xs font-medium uppercase tracking-wider ">
               Studio Locations
             </span>
@@ -177,7 +171,7 @@ const FounderSection = () => {
           <div class="relative lg:col-span-5">
             <div class="aspect-4/5 overflow-hidden  shadow-md">
               <img
-                src="public/images/landscape.webp"
+                src="public/images/him.webp"
                 alt="Aboagye, Founder & Creative Director of Aboagye Nobel Furniture"
                 class="h-full w-full object-cover object-center"
               />
@@ -198,7 +192,7 @@ const FounderSection = () => {
               </span>
 
               <h2 class="text-4xl font-normal leading-tight tracking-tight ">
-                Aboagye Nobel
+                Aboagye Dacosta
               </h2>
 
               <p class="mt-1 text-xs uppercase tracking-wider ">

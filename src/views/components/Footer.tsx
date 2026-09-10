@@ -13,9 +13,9 @@ export const Footer: FC = () => {
           {/* <!-- Brand --> */}
           <div class="flex flex-col justify-between space-y-6 md:col-span-4">
             <div class="space-y-3">
-              <span class="block font-serif text-xl uppercase tracking-[0.2em] text-neutral-900">
+              {/* <span class="block font-serif text-xl uppercase tracking-[0.2em] text-neutral-900">
                 AN FURNITURE
-              </span>
+              </span> */}
 
               <p class="max-w-sm text-sm leading-relaxed text-neutral-500">
                 Crafting beautiful homes.
@@ -74,11 +74,8 @@ export const Footer: FC = () => {
                 aboagyenoblefurniture@gmail.com
               </a>
 
-              <a href="tel:+233208232060" class="text-sm text-neutral-500">
-                +233208232060
-              </a>
-              <a href="tel:+233550773231" class="text-sm text-neutral-500">
-                +233550773231
+              <a href="tel:+233559903721" class="text-sm text-neutral-500">
+                Tel: +233559903721
               </a>
 
               <p class="pt-1 text-sm leading-relaxed text-neutral-500">
@@ -95,24 +92,19 @@ export const Footer: FC = () => {
 
             <div class="flex flex-col space-y-3">
               <a
-                href="#"
+                href="https://tiktok.com/@aboagyenobleofficial"
                 class="text-sm text-neutral-500 transition-colors hover:text-neutral-900"
+                target="_blank"
+              >
+                Tiktok
+              </a>
+
+              <a
+                href="https://www.instagram.com/aboagyenoblefurniture"
+                class="text-sm text-neutral-500 transition-colors hover:text-neutral-900"
+                target="_blank"
               >
                 Instagram
-              </a>
-
-              <a
-                href="#"
-                class="text-sm text-neutral-500 transition-colors hover:text-neutral-900"
-              >
-                Pinterest
-              </a>
-
-              <a
-                href="#"
-                class="text-sm text-neutral-500 transition-colors hover:text-neutral-900"
-              >
-                Architectural Digest
               </a>
             </div>
           </div>
@@ -125,6 +117,7 @@ export const Footer: FC = () => {
             reserved.
           </span>
         </div>
+        <img src="/public/images/logo-avif.avif" class="w-full" alt="" />
       </div>
     </footer>
   );

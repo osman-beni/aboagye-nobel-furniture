@@ -22,7 +22,7 @@ const HeroSectionCopy = () => {
       <div class="relative h-[92vh] min-h-155 w-full overflow-hidden">
         <img
           src="/public/images/landscape.webp"
-          alt="The Belgravia Residence living room interior designed by Atelier Vane"
+          alt="A Residence living room interior designed by Aboagye Nobel Furnitures"
           class="h-full w-full scale-[1.01] object-cover object-center transition-transform duration-1000 ease-out"
         />
 
@@ -39,9 +39,9 @@ const HeroSectionCopy = () => {
             </h1>
 
             <p class="max-w-xl pt-1 text-base leading-relaxed text-white/80 sm:text-lg">
-              Atelier Vane is an interior architecture and design studio
-              creating calm, timeless spaces for discerning residential and
-              boutique commercial clients.
+              Aboagye Noble Furniture is an interior architecture and design
+              studio creating calm, timeless spaces for discerning residential
+              and boutique commercial clients.
             </p>
 
             <div class="pt-2">
@@ -134,12 +134,12 @@ const FeaturedProjectsSection = () => {
         {/* <!-- Projects --> */}
         <div class="grid grid-cols-1 gap-12 md:grid-cols-12 md:gap-16">
           {/* <!-- Project 1 --> */}
-          <article class="group cursor-pointer md:col-span-12">
+          <article class="group md:col-span-12">
             <div class="overflow-hidden bg-stone-100 shadow-sm">
               <img
                 src="/public/images/one.webp"
-                alt="The Belgravia Residence - Full Architectural Renovation by Atelier Vane"
-                class="h-130 w-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.015] md:h-[680px]"
+                alt="A North Kaneshie  Residence - Full Architectural Renovation by Aboagye Nobel Furniture"
+                class="h-130 w-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.015] md:h-170"
               />
             </div>
 
@@ -150,22 +150,22 @@ const FeaturedProjectsSection = () => {
                 </span>
 
                 <h3 class="text-2xl font-medium tracking-tight text-neutral-900 transition-colors group-hover:text-neutral-500">
-                  The Belgravia Residence
+                  North Kaneshie Resident
                 </h3>
               </div>
 
               <span class="text-sm tracking-wide text-neutral-500">
-                London, UK · 2024
+                North Kaneshie, Accra · 2024
               </span>
             </div>
           </article>
 
           {/* <!-- Project 2 --> */}
-          <article class="group cursor-pointer md:col-span-7">
+          <article class="group md:col-span-7">
             <div class="overflow-hidden bg-stone-100 shadow-sm">
               <img
                 src="/public/images/two.webp"
-                alt="Kew Smoked Oak Kitchen & Villa - Residential Interior by Atelier Vane"
+                alt="Kitchen & Villa - Residential Interior by Aboagye Nobel Furniture"
                 class="h-105 w-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.02] md:h-125"
               />
             </div>
@@ -177,12 +177,12 @@ const FeaturedProjectsSection = () => {
                 </span>
 
                 <h3 class="text-xl font-medium tracking-tight text-neutral-900 transition-colors group-hover:text-neutral-500">
-                  Kew Smoked Oak Kitchen & Villa
+                  Kitchen & Villa
                 </h3>
               </div>
 
               <span class="text-sm tracking-wide text-neutral-500">
-                Richmond, UK
+                Dansoman, Accra
               </span>
             </div>
           </article>
@@ -193,7 +193,7 @@ const FeaturedProjectsSection = () => {
               <div class="overflow-hidden bg-stone-100 shadow-sm">
                 <img
                   src="/public/images/three.webp"
-                  alt="Nordic Haven Apartment - Space Planning & Interior by Atelier Vane"
+                  alt="Apartment - Space Planning & Interior by Aboagye Nobel Furniture"
                   class="h-105 w-full object-cover object-center transition-transform duration-700 ease-out group-hover:scale-[1.02] md:h-125"
                 />
               </div>
@@ -205,12 +205,12 @@ const FeaturedProjectsSection = () => {
                   </span>
 
                   <h3 class="text-xl font-medium tracking-tight text-neutral-900 transition-colors group-hover:text-neutral-500">
-                    Nordic Haven Apartment
+                    Apartment
                   </h3>
                 </div>
 
                 <span class="text-sm tracking-wide text-neutral-500">
-                  Copenhagen, Denmark
+                  North Kaneshie, Accra
                 </span>
               </div>
             </div>

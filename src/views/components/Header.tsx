@@ -7,12 +7,13 @@ export const Header: FC = () => {
       <header class="fixed left-0 top-0 z-50 w-full border-b border-neutral-200/40 bg-white/90 backdrop-blur-md">
         <div class="mx-auto flex h-20 max-w-360 items-center justify-between px-6 sm:px-8 md:px-12 lg:px-16">
           {/* <!-- Logo --> */}
-          <div class="flex items-center gap-4">
+          <div class="flex items-center gap-4 ">
             <a
               href="/"
               class="font-serif text-lg uppercase tracking-[0.18em] text-neutral-900 transition-colors hover:text-neutral-500"
             >
-              AN Furniture
+              {/* AN Furniture */}
+              <img src="/public/images/logo-avif.avif" alt="" class="w-24" />
             </a>
           </div>
 

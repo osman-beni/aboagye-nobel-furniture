@@ -22,7 +22,7 @@ const EditorialHeader = () => {
         <div class="flex flex-col space-y-3 md:col-span-8">
           <div class="flex items-center gap-2 text-neutral-600">
             <span class="text-xs font-medium uppercase tracking-[0.2em]">
-              Archive · 2021 — 2024
+              Archive · 2023 — 2026
             </span>
 
             <span class="h-px w-8 bg-neutral-400"></span>
@@ -52,13 +52,10 @@ const GalleryArchitecturalGrid = () => {
     <section class="mx-auto w-full max-w-360 px-5 pb-32 md:px-8 lg:px-16">
       <div class="grid grid-cols-1 gap-x-8 gap-y-24 md:grid-cols-12">
         {/* <!-- Project 01 --> */}
-        <article
-          class="group flex cursor-pointer flex-col md:col-span-7"
-          onclick="openProjectModal('The Belgravia Residence', 'London, UK', 'Residential Interior Architecture', 'A grand Georgian townhouse reimagined through limestone micro-cement, honed travertine fixtures, bespoke linen draping, and continuous oak board flooring, framing private courtyard garden perspectives.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuC1f85Qa9dHGQYCNQ7QoW6jJDsDTxYkwWfAguliBn0UsOFPhS9AZPyCgcf9WmEa2f3WCS55Nc5C-TMAAbeWYNLEiUN74awtlTzR8lYlYBVImfztxUGDQl522nUZefvJH3C_8T37QQTUHnml9zpWKdkjV7OxCW9_3ss_k9HeDn0zV1WW6188FRntUCl-_dOD6MccNJNbOVhNDOoJuen_sGwe98mTbBL71ZLoBpQqpx7t3yyV31ceaxkx')"
-        >
+        <article class="group flex flex-col md:col-span-7">
           <div class="relative aspect-4/3 w-full overflow-hidden bg-neutral-200">
             <img
-              alt="The Belgravia Residence Interior"
+              alt="Apartment Interior"
               class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]"
               src="/public/images/three.webp"
             />
@@ -78,35 +75,24 @@ const GalleryArchitecturalGrid = () => {
                 Residential Interior Architecture
               </span>
 
-              <span class="text-xs text-neutral-500">London, UK · 2024</span>
+              <span class="text-xs text-neutral-500">
+                North Kaneshie, Accra · 2024
+              </span>
             </div>
 
             <div class="flex items-baseline justify-between pt-1.5">
               <h2 class="text-2xl font-medium text-neutral-900 transition-colors group-hover:text-neutral-600 md:text-3xl">
-                The Belgravia Residence
+                Apartment
               </h2>
-
-              <span class="text-[20px] text-neutral-900 opacity-0 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100">
-                ↗
-              </span>
             </div>
-
-            <p class="line-clamp-2 pt-1.5 text-sm leading-relaxed text-neutral-600">
-              A serene, lime-washed formal living room open to natural daylight
-              and landscaped courtyard grounds, featuring architectural bespoke
-              joinery and low-profile sculpted furnishings.
-            </p>
           </div>
         </article>
 
         {/* <!-- Project 02 --> */}
-        <article
-          class="group flex cursor-pointer flex-col md:col-span-5 md:pt-16"
-          onclick="openProjectModal('Smoked Oak Kitchen &amp; Pavilion', 'Richmond, UK', 'Kitchen &amp; Joinery Design', 'Commissioned to craft a seamless entertaining space that balances dark fumed European oak millwork, Calacatta marble island monoliths, and minimalist steel fenestration embracing lush perimeter gardens.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuCW4kuprKf07Awriqx38Sh9AzqJkhbEDtPWRUM9UN4GVCgJZOX6mhA4l417zxm4hH-CFrsWsaEsVtGKhoNhjFJtyPQoEs0NUOkaAew6gldZ7QKrMopfihPhBNIeBT8ZKk7b-xDlxn7il_oRyJfzxnvbKmG92h8qO4CC-AR0wPQFLp2B1LKfm9Yamwg7TKwacbdk1z4q--f-oNj1zNFopaT1kZsuRCAIeN6I3SP8NRZIbsmFfIPiluwP')"
-        >
+        <article class="group flex flex-col md:col-span-5 md:pt-16">
           <div class="relative aspect-4/5 w-full overflow-hidden bg-neutral-200">
             <img
-              alt="Smoked Oak Kitchen &amp; Pavilion Interior"
+              alt="Room Interior"
               class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]"
               src="/public/images/six.webp"
             />
@@ -123,7 +109,7 @@ const GalleryArchitecturalGrid = () => {
           <div class="flex flex-col space-y-1.5 pt-4">
             <div class="flex items-center justify-between">
               <span class="text-xs font-medium uppercase tracking-wider text-neutral-600">
-                Kitchen &amp; Joinery Design
+                Joinery Design
               </span>
 
               <span class="text-xs text-neutral-500">Richmond, UK · 2023</span>
@@ -131,29 +117,17 @@ const GalleryArchitecturalGrid = () => {
 
             <div class="flex items-baseline justify-between pt-1.5">
               <h2 class="text-2xl font-medium text-neutral-900 transition-colors group-hover:text-neutral-600 md:text-3xl">
-                Smoked Oak Kitchen &amp; Pavilion
+                Room Interior
               </h2>
-
-              <span class="text-[20px] text-neutral-900 opacity-0 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100">
-                ↗
-              </span>
             </div>
-
-            <p class="line-clamp-2 pt-1.5 text-sm leading-relaxed text-neutral-600">
-              Monolithic veined marble surfaces anchored against dark stained
-              timber cabinetry and warm architectural brass accents.
-            </p>
           </div>
         </article>
 
         {/* <!-- Project 03 --> */}
-        <article
-          class="group flex cursor-pointer flex-col md:col-span-5"
-          onclick="openProjectModal('Nordic Minimalist Suite', 'Copenhagen, Denmark', 'Space Planning &amp; Styling', 'An exploration of acoustic timber fluting, raw tactile textiles, and integrated floating cabinetry designed to instil sensory decompression in an urban sanctuary overlooking water.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuB_O2CwgXPcyunnK6ue_N6XUifeLYltMJN2lu4W9b6AMgT9S4i61nO8z5a1gm2j9aMhdqtc94QyY-70OibqgJTOl-N9gtSvXnQaKl2GSJorXzrjabX1Czt6k-xicDi7zr3q7WKvEAl0L-xXMLRsj_v_IcDhWjROz9d03X8XeyP7b-2lZwO_SlwIYw4g5bsJnYXki_fL7pij2vJukFTZwqPzU0EB2HcLa-wxV-NLOqjNioKWnbmfl5ar')"
-        >
+        <article class="group flex flex-col md:col-span-5">
           <div class="relative aspect-4/5 w-full overflow-hidden bg-neutral-200">
             <img
-              alt="Nordic Minimalist Suite Bedroom Interior"
+              alt="Minimalist Kitchen Interior"
               class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]"
               src="/public/images/five.webp"
             />
@@ -173,37 +147,22 @@ const GalleryArchitecturalGrid = () => {
                 Space Planning &amp; Styling
               </span>
 
-              <span class="text-xs text-neutral-500">
-                Copenhagen, DK · 2023
-              </span>
+              <span class="text-xs text-neutral-500">Lapaz, Accra · 2025</span>
             </div>
 
             <div class="flex items-baseline justify-between pt-1.5">
               <h2 class="text-2xl font-medium text-neutral-900 transition-colors group-hover:text-neutral-600 md:text-3xl">
-                Nordic Minimalist Suite
+                Minimalist Kitchen Interior
               </h2>
-
-              <span class="text-[20px] text-neutral-900 opacity-0 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100">
-                ↗
-              </span>
             </div>
-
-            <p class="line-clamp-2 pt-1.5 text-sm leading-relaxed text-neutral-600">
-              Tactile timber slatted headboards, soft natural linen bedding, and
-              curated Japanese ceramics create a master suite of quiet
-              stillness.
-            </p>
           </div>
         </article>
 
         {/* <!-- Project 04 --> */}
-        <article
-          class="group flex cursor-pointer flex-col md:col-span-7 md:-mt-8"
-          onclick="openProjectModal('Cotswolds Stone Barn', 'Oxfordshire, UK', 'Heritage Restoration &amp; Interior', 'A grade-II listed 17th-century agricultural structure converted into an understated private home through unlacquered metals, lime mortar preservation, and bespoke sculpted stone furnishings.', 'https://lh3.googleusercontent.com/aida-public/AB6AXuC1f85Qa9dHGQYCNQ7QoW6jJDsDTxYkwWfAguliBn0UsOFPhS9AZPyCgcf9WmEa2f3WCS55Nc5C-TMAAbeWYNLEiUN74awtlTzR8lYlYBVImfztxUGDQl522nUZefvJH3C_8T37QQTUHnml9zpWKdkjV7OxCW9_3ss_k9HeDn0zV1WW6188FRntUCl-_dOD6MccNJNbOVhNDOoJuen_sGwe98mTbBL71ZLoBpQqpx7t3yyV31ceaxkx')"
-        >
+        <article class="group flex  flex-col md:col-span-7 md:-mt-8">
           <div class="relative aspect-4/3 w-full overflow-hidden bg-neutral-200">
             <img
-              alt="Cotswolds Stone Barn Living Space"
+              alt="Kitchen Space"
               class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-[1.02]"
               src="/public/images/two.webp"
             />
@@ -220,29 +179,19 @@ const GalleryArchitecturalGrid = () => {
           <div class="flex flex-col space-y-1.5 pt-4">
             <div class="flex items-center justify-between">
               <span class="text-xs font-medium uppercase tracking-wider text-neutral-600">
-                Heritage Restoration &amp; Interior
+                Kitchen Interior
               </span>
 
               <span class="text-xs text-neutral-500">
-                Oxfordshire, UK · 2022
+                Mallam Gbawe, Accra · 2026
               </span>
             </div>
 
             <div class="flex items-baseline justify-between pt-1.5">
               <h2 class="text-2xl font-medium text-neutral-900 transition-colors group-hover:text-neutral-600 md:text-3xl">
-                Cotswolds Stone Barn
+                Clean Kitchen Interior
               </h2>
-
-              <span class="text-[20px] text-neutral-900 opacity-0 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100">
-                ↗
-              </span>
             </div>
-
-            <p class="line-clamp-2 pt-1.5 text-sm leading-relaxed text-neutral-600">
-              Honoring historical masonry through subtle contemporary
-              interventions, soft earthy bouclé silhouettes, and textured wool
-              floor coverings.
-            </p>
           </div>
         </article>
       </div>
@@ -303,7 +252,7 @@ const QuietClosingCTA = () => {
           <a
             class="inline-block bg-neutral-900 px-8 py-4 text-xs font-medium uppercase tracking-[0.18em] text-white transition-colors duration-300 hover:bg-neutral-600"
             data-path="contact"
-            href="#"
+            href="/contact"
           >
             Book a Consultation
           </a>
@@ -311,7 +260,7 @@ const QuietClosingCTA = () => {
           <a
             class="inline-block border border-neutral-900 px-8 py-4 text-xs font-medium uppercase tracking-[0.18em] text-neutral-900 transition-colors duration-300 hover:bg-neutral-900 hover:text-white"
             data-path="services"
-            href="#"
+            href="/services"
           >
             Explore Services
           </a>
