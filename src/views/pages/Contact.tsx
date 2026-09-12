@@ -107,7 +107,7 @@ const MainLayoutForm = () => {
                 </span>
 
                 <a
-                  href="https://wa.me/233506157529"
+                  href="https://wa.me/233506157529?text=Hello%2C%20I%20am%20interested%20in%20your%20services"
                   target="_blank"
                   class="mt-3 block text-sm text-neutral-900 underline underline-offset-4 transition-colors hover:text-stone-600"
                 >

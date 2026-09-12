@@ -103,7 +103,7 @@ export const Header: FC = () => {
             {/* <!-- Mobile CTA --> */}
             <div class="mt-6 flex flex-col sm:flex-row gap-1">
               <a
-                href="https://wa.me/233506157529"
+                href="https://wa.me/233506157529?text=Hello%2C%20I%20am%20interested%20in%20your%20services"
                 target="_blank"
                 class="block w-full bg-neutral-900 px-6 py-4 text-center text-xs font-medium uppercase tracking-[0.16em] text-white transition-colors duration-300 hover:bg-neutral-700"
               >
