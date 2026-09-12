@@ -78,11 +78,11 @@ export const Footer: FC = () => {
                 Call us: +233506157529
               </a>
               <a
-                href="https://wa.me/233506157529?text=Hello%2C%20I%20am%20interested%20in%20your%20services"
+                href="https://wa.me/233559903712?text=Hello%2C%20I%20am%20interested%20in%20your%20services"
                 target="_blank"
                 class="text-sm text-neutral-500"
               >
-                Whatsapp
+                Whatsapp Us
               </a>
 
               <p class="pt-1 text-sm leading-relaxed text-neutral-500">
