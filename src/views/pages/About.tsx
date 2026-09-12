@@ -253,13 +253,12 @@ const ClosingCTASection = () => {
             >
               <span>Work with us</span>
             </a>
-
             <a
               href="/projects"
               data-path="projects"
-              class="inline-flex items-center px-6 py-4 text-xs font-medium uppercase tracking-widest  transition-colors hover:text-slate-400"
+              class="inline-flex items-center gap-2 bg-white px-8 py-4 text-xs font-medium uppercase tracking-wider text-slate-900 transition-colors duration-300 hover:bg-stone-200"
             >
-              Explore Selected Works
+              <span> Explore Selected Works</span>
             </a>
           </div>
         </div>

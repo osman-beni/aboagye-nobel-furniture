@@ -101,12 +101,27 @@ export const Header: FC = () => {
             </div>
 
             {/* <!-- Mobile CTA --> */}
-            <div class="mt-6">
+            <div class="mt-6 flex flex-col sm:flex-row gap-1">
               <a
-                href="#"
+                href="https://wa.me/233506157529"
+                target="_blank"
                 class="block w-full bg-neutral-900 px-6 py-4 text-center text-xs font-medium uppercase tracking-[0.16em] text-white transition-colors duration-300 hover:bg-neutral-700"
               >
-                Inquire
+                Whatsapp
+              </a>
+              <a
+                href="https://tiktok.com/@aboagyenobleofficial"
+                target="_blank"
+                class="block w-full bg-neutral-900 px-6 py-4 text-center text-xs font-medium uppercase tracking-[0.16em] text-white transition-colors duration-300 hover:bg-neutral-700"
+              >
+                Tiktok
+              </a>
+              <a
+                href="https://www.instagram.com/aboagyenoblefurniture"
+                target="_blank"
+                class="block w-full bg-neutral-900 px-6 py-4 text-center text-xs font-medium uppercase tracking-[0.16em] text-white transition-colors duration-300 hover:bg-neutral-700"
+              >
+                Instagram
               </a>
             </div>
           </nav>

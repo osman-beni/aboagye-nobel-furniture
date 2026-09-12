@@ -43,16 +43,10 @@ const EditorialMateriality = () => {
         <div class="group overflow-hidden bg-neutral-100 md:col-span-7">
           <div class="relative h-90 w-full overflow-hidden md:h-110">
             <img
-              alt="Warm architectural kitchen with dark timber joinery, honed marble waterfall island and natural light"
+              alt="Picture of a living room"
               class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
-              src="/images/landscape.webp"
+              src="/images/four.webp"
             />
-
-            <div class="absolute bottom-4 left-4 bg-white/90 px-3 py-1.5 text-neutral-900 backdrop-blur-sm">
-              <span class="text-xs font-medium uppercase tracking-wider">
-                Tactile Joinery · Natural Stone
-              </span>
-            </div>
           </div>
         </div>
 
@@ -60,16 +54,10 @@ const EditorialMateriality = () => {
         <div class="group flex flex-col justify-between overflow-hidden bg-neutral-100 md:col-span-5">
           <div class="relative h-90 w-full overflow-hidden md:h-110">
             <img
-              alt="Minimalist living room with plaster finish walls, bespoke linen upholstery, travertine table and garden view"
+              alt="Picture of a kitchen"
               class="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
               src="/images/seven.webp"
             />
-
-            <div class="absolute bottom-4 left-4 bg-white/90 px-3 py-1.5 text-neutral-900 backdrop-blur-sm">
-              <span class="text-xs font-medium uppercase tracking-wider">
-                Spatial Harmony · Neutral Palette
-              </span>
-            </div>
           </div>
         </div>
       </div>
@@ -107,7 +95,7 @@ const ServicesHierarchy = () => {
               </p>
 
               <div class="flex items-center gap-2 pt-2 text-xs font-medium uppercase tracking-widest text-neutral-900">
-                <span>Schematic Drawings · Sourcing · Site Oversight</span>
+                <span>Schematic Drawings · Sourcing</span>
               </div>
             </div>
           </div>
@@ -138,7 +126,7 @@ const ServicesHierarchy = () => {
               </p>
 
               <div class="flex items-center gap-2 pt-2 text-xs font-medium uppercase tracking-widest text-neutral-900">
-                <span>Hospitality · Atelier Workspaces · Flagships</span>
+                <span>Hospitality · Flagships</span>
               </div>
             </div>
           </div>
@@ -170,7 +158,7 @@ const ServicesHierarchy = () => {
               </p>
 
               <div class="flex items-center gap-2 pt-2 text-xs font-medium uppercase tracking-widest text-neutral-900">
-                <span>Daylight Analysis · Circulation · Spatial Flow</span>
+                <span>Daylight Analysis · Spatial Flow</span>
               </div>
             </div>
           </div>
@@ -201,7 +189,7 @@ const ServicesHierarchy = () => {
               </p>
 
               <div class="flex items-center gap-2 pt-2 text-xs font-medium uppercase tracking-widest text-neutral-900">
-                <span>Bespoke Mills · Gallery Liaison · Commissioned Art</span>
+                <span>Bespoke Mills · Gallery Liaison</span>
               </div>
             </div>
           </div>
@@ -233,9 +221,7 @@ const ServicesHierarchy = () => {
               </p>
 
               <div class="flex items-center gap-2 pt-2 text-xs font-medium uppercase tracking-widest text-neutral-900">
-                <span>
-                  Artisan Procurement · Turnkey Build · Construction Admin
-                </span>
+                <span>Procurement · Turnkey Build</span>
               </div>
             </div>
           </div>

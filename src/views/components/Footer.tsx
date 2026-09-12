@@ -74,8 +74,15 @@ export const Footer: FC = () => {
                 aboagyenoblefurniture@gmail.com
               </a>
 
-              <a href="tel:+233559903721" class="text-sm text-neutral-500">
-                Tel: +233559903721
+              <a href="tel:+233506157529" class="text-sm text-neutral-500">
+                Call us: +233506157529
+              </a>
+              <a
+                href="https://wa.me/233506157529"
+                target="_blank"
+                class="text-sm text-neutral-500"
+              >
+                Whatsapp
               </a>
 
               <p class="pt-1 text-sm leading-relaxed text-neutral-500">

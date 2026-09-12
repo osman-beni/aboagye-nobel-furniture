@@ -28,7 +28,7 @@ const TopTypographicIntroduction = () => {
           <span class="inline-block size-2 rounded-full bg-neutral-900"></span>
 
           <span class="text-xs font-medium uppercase tracking-[0.2em] text-neutral-500">
-            Inquiry · Vol. 04
+            Inquiry
           </span>
         </div>
       </div>
@@ -82,7 +82,7 @@ const MainLayoutForm = () => {
                   href="mailto:aboagyenoblefurniture@gmail.com"
                   class="text-sm text-neutral-900 underline underline-offset-4 transition-colors hover:text-stone-600"
                 >
-                  aboagyenoblefurniture@gmail.com
+                  Email Us
                 </a>
               </div>
 
@@ -107,10 +107,17 @@ const MainLayoutForm = () => {
                 </span>
 
                 <a
-                  href="tel:+233559903721"
-                  class="text-sm text-neutral-900 transition-colors hover:text-stone-600"
+                  href="https://wa.me/233506157529"
+                  target="_blank"
+                  class="mt-3 block text-sm text-neutral-900 underline underline-offset-4 transition-colors hover:text-stone-600"
                 >
-                  +233 559903721
+                  Whatsapp
+                </a>
+                <a
+                  href="tel:233506157529"
+                  class="mt-3 block text-sm text-neutral-900 underline underline-offset-4 transition-colors hover:text-stone-600"
+                >
+                  Call Us
                 </a>
               </div>
 
@@ -198,7 +205,7 @@ const MainLayoutForm = () => {
           </p>
 
           <span class="mt-4 block text-xs font-medium uppercase tracking-widest text-stone-600">
-            Aboagye Noble Principles · Edition V
+            Aboagye Noble Principles
           </span>
         </div>
       </div>

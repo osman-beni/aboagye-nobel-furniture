@@ -112,7 +112,7 @@ const GalleryArchitecturalGrid = () => {
                 Joinery Design
               </span>
 
-              <span class="text-xs text-neutral-500">Richmond, UK · 2023</span>
+              <span class="text-xs text-neutral-500">Kasoa, Accra · 2026</span>
             </div>
 
             <div class="flex items-baseline justify-between pt-1.5">
